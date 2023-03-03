@@ -10,8 +10,11 @@ sudo dmidecode --type 17
 ```
 cat /proc/mounts
 ```
+
 #### ssd temp
+```
 sudo nvme smart-log /dev/nvme0 
+```
 
 #### video to gif
 ```
