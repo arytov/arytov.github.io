@@ -24,6 +24,12 @@ ffmpeg -i input.mp4 -vf fps=10,scale=300:-1:flags=lanczos output.gif
 ```
 ffmpeg -i input.mp4 -r 10 -an -ss '00:11:02.5' -to '00:11:05' output.gif
 ```
+
+#### video conver
+```
+ffmpeg -i input.mp4 -crf 1 -c:v libx264 output.mp4
+```
+
 #### help
 ```
 tldr tldr
