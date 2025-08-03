@@ -28,7 +28,7 @@ ffmpeg -i input.mp4 -r 10 -an -ss '00:11:02.5' -to '00:11:05' output.gif
 #### video conver
 Constant Rate Factor (CRF)
 ```
-ffmpeg -i input.mp4 -c:v libx264 -crf 22 -c:a copy output.mp4
+ffmpeg -i input.mp4 -c:v libx264 -crf 26 -c:a copy output.mp4
 ```
 
 
