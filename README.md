@@ -1,5 +1,9 @@
 # arytov.github.io
 
+#### ubuntu virtualbox run
+```
+sudo modprobe -r kvm_intel kvm
+```
 
 #### RAM Memory info
 ```
