@@ -1,6 +1,11 @@
 # arytov.github.io
 
-#### ubuntu virtualbox run
+#### Flashforge wayland fix
+```
+QT_QPA_PLATFORM=xcb /usr/share/FlashPrint5/FlashPrint
+```
+
+#### ubuntu virtualbox run (obsolete)
 ```
 sudo modprobe -r kvm_intel kvm
 ```
