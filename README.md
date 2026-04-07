@@ -15,6 +15,11 @@ sudo modprobe -r kvm_intel kvm
 sudo dmidecode --type 17
 ```
 
+#### PDF Unite
+```
+pdfunite in1.pdf in2.pdf out.pdf
+```
+
 #### Mounts file systems
 ```
 cat /proc/mounts
