@@ -5,9 +5,9 @@
 QT_QPA_PLATFORM=xcb /usr/share/FlashPrint5/FlashPrint
 ```
 
-#### ubuntu full infov
+#### ubuntu full info (neofetch obsolete)
 ```
-neofetch
+fastfetch
 ```
 
 #### ubuntu virtualbox run (obsolete)
